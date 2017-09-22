@@ -6,15 +6,13 @@ var Weather = require('./components/Weather');
 var About = require('./components/About');
 var Examples = require('./components/Examples');
 
-
 ReactDOM.render(
   <Router history={hashHistory}>
-     <Route path="/" component={Main}>
-        <Route path="About" component={About}/>
-	<Route path="Examples" component={Examples}/>
-	<IndexRoute component={Weather}/>
-     </Route>
-	
+    <Route path="/" component={Main}>
+      <Route path="about" component={About}/>
+      <Route path="examples" component={Examples}/>
+      <IndexRoute component={Weather}/>
+    </Route>
   </Router>,
   document.getElementById('hello-world')
 );

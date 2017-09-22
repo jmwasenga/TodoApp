@@ -1,16 +1,18 @@
 var React = require('react');
 var Nav = require('./Nav');
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-var Main = React.createClass({
-  render: function () {
-    return (
-      <div>
-        <Nav/>
-        <h2>Main Component</h2>
-        {this.props.children}
-      </div>
-    );
-  }
-});
+
+
+var Main = (props) => {
+  return (
+   <MuiThemeProvider>
+    <div>
+      <Nav/>
+        {props.children}
+    </div>
+   </MuiThemeProvider>
+  );
+}
 
 module.exports = Main;
