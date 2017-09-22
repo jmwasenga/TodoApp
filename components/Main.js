@@ -9,6 +9,7 @@ var Main = (props) => {
    <MuiThemeProvider>
     <div>
       <Nav/>
+        <h3> This main Component</h3>
         {props.children}
     </div>
    </MuiThemeProvider>
