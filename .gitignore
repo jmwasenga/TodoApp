@@ -3,4 +3,7 @@ socket.js
 sum.js
 sum.test.js
 tests/
+components/Weather.js
+components/WeatherForm.js
+components/WeatherMessage.js
 
