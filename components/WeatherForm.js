@@ -13,10 +13,15 @@ var WeatherForm = React.createClass({
   },
   render: function () {
     return (
-        <div>
+        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '100px'}}>
           <form onSubmit={this.onFormSubmit}>
-            <input type="text" ref="location"/>
-            <button>Get Weather</button>
+            <div style={{}}>
+    	       <input type="text" ref="location"/>
+   	    </div>
+
+	    <div>
+                <button style={{margin: '10px', backgroundColor: 'white', border: '1px solid #64B5F6', width: '174px',marginLeft: '0px', borderRadius: '7px', color: '#64B5F6'}}>Get Weather</button>
+            </div>
           </form>
         </div>
     );

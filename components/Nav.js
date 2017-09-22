@@ -6,7 +6,7 @@ import {Tabs, Tab} from 'material-ui/Tabs';
 var Nav = () => {
   return (
 	   <AppBar
-            title="React Weather App" style={{backgroundColor: '#dcdcdc'}}
+            title="React Weather" style={{backgroundColor: '#dcdcdc'}}
            >
 
            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', fontWeight: 'bold', margin: '10px', backgroundColor: '#dcdcdc', width: '350px'}}>

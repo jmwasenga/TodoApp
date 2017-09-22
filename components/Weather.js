@@ -38,8 +38,8 @@ var Weather = React.createClass({
 
     return (
       <div style={{display: 'flex', flexDirection: 'column'}}>
-        <div>
-	    <h3>Weather Component</h3>
+        <div style={{marginLeft: '250px', fontWeight: 'bold', color: '#64B5F6'}} >
+	    <h3>Get Weather</h3>
 	</div>
         <div> 
             <WeatherForm onSearch={this.handleSearch}/>
