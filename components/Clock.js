@@ -29,9 +29,10 @@ var Clock = React.createClass ({
    render: function () {
      var {totalSeconds} = this.props;
      return (
-        <div style={{width: '300px', height: '300px', backgroundColor: '#BBDEFB',
-               borderRadius: '50%', paddingLeft: '120px', paddingTop: '140px',
+        <div style={{width: '300px', height: '300px', backgroundColor: '#B5D0E2',
+               borderRadius: '50%',display: 'flex', justifyContent: 'center', paddingTop: '140px',
                fontSize: '2.25rem',
+               border: '2px solid #209938',
                color: 'white',
                fontWeight: '300px',
                position: 'relative',

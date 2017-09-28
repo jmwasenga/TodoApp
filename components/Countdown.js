@@ -5,7 +5,7 @@ var Clock = require('./Clock');
 var Countdown = React.createClass({
    render: function () {
      return (
-        <div style={{display: 'flex', flexDirection: 'column'
+        <div style={{display: 'flex', flexDirection: 'row'
   	   
         }}>
            <Clock totalSeconds={30000} />
@@ -14,5 +14,8 @@ var Countdown = React.createClass({
   )   
 }
 });
+
+
+
 
 module.exports = Countdown;
