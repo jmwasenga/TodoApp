@@ -21,8 +21,14 @@ var Countdown = React.createClass({
         <div style={{display: 'flex', flexDirection: 'column'
   	   
         }}>
-            <div><Clock totalSeconds={count} /></div>
-            <div style={{marginLeft: '300px'}}> <CountdownForm onSetCountdown={this.handleSetCountdown}  /></div>
+            <div>
+                <Clock totalSeconds={count} />
+            </div>
+
+            <div style={{marginLeft: '300px'}}>
+                <CountdownForm onSetCountdown={this.handleSetCountdown}  />
+            </div>
+
         </div>
   )   
 }

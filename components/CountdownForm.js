@@ -20,7 +20,7 @@ var CountdownForm = React.createClass ({
 	   </div>
 
            <div>
-	       <button style={{width: '220px', marginTop: '6px'}}>Start</button>
+	       <button style={{width: '220px', marginTop: '6px', backgroundColor: '#42A5F5'}}>Start</button>
            </div>
 
 	 </form>
