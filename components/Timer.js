@@ -1,9 +1,12 @@
 var React = require('react');
 
 var Timer = React.createClass({
-   render: function () {
-      return (
-        <h3>Timer Component</h3>
+  render: function () {
+    var {name, carrier} = this.state;
+     return (
+        <div> 
+	  <h3>Timer</h3>
+       </div>
        )
    }
 
