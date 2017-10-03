@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-node_modules/
-=======
-app.js.back
-socket.js
-sum.js
-sum.test.js
-tests/
-components/Weather.js
-components/WeatherForm.js
-components/WeatherMessage.js
+backup/
+codes/
+.DS_Store/
+TimerApp/
 
->>>>>>> 50db330318b0ca7a76f77b24006a6c0ca2836db4
